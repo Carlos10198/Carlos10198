@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6f5e5e;
+    width: 500px;
+    height: 500px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #7365a2;
+     width: 500px;
+    height: 500px;
+    flex-direction: row;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
